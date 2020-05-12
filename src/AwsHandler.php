@@ -2,9 +2,6 @@
 
 namespace Polymind\Aws;
 
-use Aws\Sdk;
-use Exception;
-
 class AwsHandler {
 
 	private $userId;

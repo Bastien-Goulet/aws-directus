@@ -2,12 +2,6 @@
 
 namespace Polymind\Aws;
 
-use Directus\AWS\DTOs\GitCloneDto;
-use Cz\Git\GitRepository;
-use Cz\Git\GitException;
-use ZipArchive;
-use Symfony\Component\Yaml\Yaml;
-
 class SourceRepository {
 
 	private $fullRepositoryPath;

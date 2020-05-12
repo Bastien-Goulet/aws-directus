@@ -2,8 +2,6 @@
 
 namespace Polymind\Aws;
 
-use \GuzzleHttp\json_encode;
-
 class EnvVariablesUtils {
 
 	public static function formatEnvVariables($envVariables) {

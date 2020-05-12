@@ -2,9 +2,6 @@
 
 namespace Polymind\Aws;
 
-use Cz\Git\GitRepository;
-use Directus\AWS\DTOs\GitCloneDto;
-
 class GitHandler {
 
 	public function clone(GitCloneDto $gitDto, $destination) {
