@@ -4,10 +4,10 @@
     "type": "library",
     "require": {
         "php": "^7.1",
-        "guzzlehttp/guzzle": "~6.0",
+        "guzzlehttp/guzzle": "^6.5",
         "czproject/git-php": "^3.17",
-        "aws/aws-sdk-php": "^3.135",
-        "symfony/yaml": "^5.0"
+        "symfony/yaml": "^5.0",
+        "aws/aws-sdk-php": "^3.137"
     },
     "license": "mit",
     "authors": [
