@@ -1,5 +1,5 @@
 {
-    "name": "Bastien-Goulet/aws-directus",
+    "name": "bastiengoulet/aws-directus",
     "description": "Custom code used as external package in the Polymind Directus project",
     "type": "library",
     "require": {
