@@ -13,9 +13,10 @@
     "authors": [
         {
             "name": "Bastien",
-            "email": "bastien.goulet27@outlook.com"
+            "email": ""
         }
     ],
+	"minimum-stability": "stable",
 	"autoload": {
         "psr-4": {
             "Polymind\\Aws\\": "src/"
