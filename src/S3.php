@@ -2,6 +2,12 @@
 
 namespace Polymind\Aws;
 
+use Aws\Exception\MultipartUploadException;
+use Aws\S3\MultipartUploader;
+use Aws\S3\S3Client;
+use Aws\S3\ObjectUploader;
+use function GuzzleHttp\Promise\all;
+
 class S3 {
 
 	private $s3Client;

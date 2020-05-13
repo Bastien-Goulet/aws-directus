@@ -1,6 +1,6 @@
 <?php
 
-namespace Polymind\Aws;
+namespace Polymind\Aws\Utils;
 
 class EnvVariablesUtils {
 

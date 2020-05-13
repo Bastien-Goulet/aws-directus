@@ -2,6 +2,11 @@
 
 namespace Polymind\Aws;
 
+use Cz\Git\GitRepository;
+use Cz\Git\GitException;
+use ZipArchive;
+use Symfony\Component\Yaml\Yaml;
+
 class SourceRepository {
 
 	private $fullRepositoryPath;
@@ -12,7 +17,7 @@ class SourceRepository {
 		$this->userDirectoryName = 'user-' . $this->getUserId();
 	}
 
-	public function createZippedRepository(GitCloneDto $gitDto, $downloadFolderPath) {
+	public function createZippedRepository(DTOs\GitCloneDto $gitDto, $downloadFolderPath) {
 		$zippedRepositoryInfo = [];
 		$zippedRepositoryName = $this->getRepositoryNameFromUrl($gitDto->getRepoUrl()) . '.zip';
 

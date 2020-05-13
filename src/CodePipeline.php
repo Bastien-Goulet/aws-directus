@@ -2,6 +2,10 @@
 
 namespace Polymind\Aws;
 
+use Aws\CodePipeline\CodePipelineClient;
+use Aws\Exception\AwsException;
+use Directus\Exception\Exception;
+
 class CodePipeline {
 
 	private $codePipelineClient;
